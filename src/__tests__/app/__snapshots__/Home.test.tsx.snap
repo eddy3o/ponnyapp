@@ -1,0 +1,316 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home, landing page matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="min-h-screen flex flex-col bg-[#000000] text-[#E7E7E7] antialiased"
+  >
+    <header
+      class="p-4 sm:p-6 bg-black bg-opacity-50 backdrop-blur-md fixed w-full z-10"
+    >
+      <div
+        class="container mx-auto flex justify-between items-center"
+      >
+        <div
+          class="flex items-center space-x-4"
+        >
+          <svg
+            class="lucide lucide-credit-card h-10 w-10 text-[#DE0D92]"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              height="14"
+              rx="2"
+              width="20"
+              x="2"
+              y="5"
+            />
+            <line
+              x1="2"
+              x2="22"
+              y1="10"
+              y2="10"
+            />
+          </svg>
+          <h1
+            class="text-2xl font-light text-[#DE0D92]"
+          >
+            Pony Pago
+          </h1>
+        </div>
+        <button
+          aria-label="Abrir menú"
+          class="text-[#FFE3DC] hover:text-[#DE0D92] transition-colors focus:outline-none"
+        >
+          <svg
+            class="lucide lucide-menu"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="4"
+              x2="20"
+              y1="12"
+              y2="12"
+            />
+            <line
+              x1="4"
+              x2="20"
+              y1="6"
+              y2="6"
+            />
+            <line
+              x1="4"
+              x2="20"
+              y1="18"
+              y2="18"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <div
+      class="fixed top-0 right-0 h-full w-64 bg-[#111] z-30 transform transition-transform duration-300 ease-in-out translate-x-full"
+    >
+      <div
+        class="flex flex-col items-center justify-center h-full space-y-6"
+      >
+        <a
+          class="text-[#FFE3DC] hover:text-[#DE0D92] transition-colors text-lg"
+          href="/signin"
+        >
+          Iniciar Sesión
+        </a>
+        <a
+          class="bg-[#9E1946] text-[#E7E7E7] px-4 py-2 rounded-lg hover:bg-[#DE0D92] transition-colors text-lg"
+          href="/signup"
+        >
+          Registrarse
+        </a>
+      </div>
+    </div>
+    <main
+      class="flex-grow flex flex-col md:flex-row items-center justify-center px-6 sm:px-10 pt-28 sm:pt-32 max-w-7xl mx-auto w-full"
+    >
+      <div
+        class="text-center md:text-left md:w-1/2 mb-10 md:mb-0 md:pr-8"
+      >
+        <h2
+          class="text-4xl sm:text-5xl font-bold text-[#DE0D92] mb-6"
+        >
+          Bienvenido a 
+          <br
+            class="hidden sm:inline"
+          />
+          Pony Pago
+        </h2>
+        <p
+          class="text-xl sm:text-2xl text-[#FFE3DC] mb-8"
+        >
+          Tu socio confiable en banca digital
+        </p>
+        <div
+          class="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4"
+        >
+          <a
+            class="inline-block bg-gradient-to-r from-[#9E1946] to-[#DE0D92] text-[#E7E7E7] px-8 py-3 rounded-lg hover:opacity-90 transition-opacity text-lg font-semibold"
+            href="/login"
+          >
+            Comenzar Ahora
+          </a>
+          <a
+            class="inline-block border border-[#FFE3DC] text-[#FFE3DC] px-8 py-3 rounded-lg hover:bg-[#FFE3DC] hover:text-[#000000] transition-colors text-lg font-semibold"
+            href="/about"
+          >
+            Conoce Más
+          </a>
+        </div>
+      </div>
+      <div
+        class="md:w-1/2 px-6 sm:px-0"
+      />
+    </main>
+    <section
+      class="py-16 bg-black bg-opacity-50 mt-16"
+      id="features"
+    >
+      <div
+        class="container mx-auto px-6 sm:px-10"
+      >
+        <h3
+          class="text-3xl font-bold text-center text-[#DE0D92] mb-12"
+        >
+          ¿Por qué elegir Pony Pago?
+        </h3>
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-10"
+        >
+          <div
+            class="text-center bg-[#000000] p-6 rounded-lg shadow-md border border-[#333]"
+          >
+            <svg
+              class="lucide lucide-lock h-16 w-16 mx-auto mb-6 text-[#FFE3DC]"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="11"
+                rx="2"
+                ry="2"
+                width="18"
+                x="3"
+                y="11"
+              />
+              <path
+                d="M7 11V7a5 5 0 0 1 10 0v4"
+              />
+            </svg>
+            <h4
+              class="text-2xl font-semibold mb-4 text-[#DE0D92]"
+            >
+              Seguridad Avanzada
+            </h4>
+            <p
+              class="text-[#FFE3DC]"
+            >
+              Protegemos tus finanzas con la más alta tecnología en seguridad digital.
+            </p>
+          </div>
+          <div
+            class="text-center bg-[#000000] p-6 rounded-lg shadow-md border border-[#333]"
+          >
+            <svg
+              class="lucide lucide-zap h-16 w-16 mx-auto mb-6 text-[#FFE3DC]"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"
+              />
+            </svg>
+            <h4
+              class="text-2xl font-semibold mb-4 text-[#DE0D92]"
+            >
+              Transacciones Rápidas
+            </h4>
+            <p
+              class="text-[#FFE3DC]"
+            >
+              Realiza transferencias y pagos en segundos, sin complicaciones.
+            </p>
+          </div>
+          <div
+            class="text-center bg-[#000000] p-6 rounded-lg shadow-md border border-[#333]"
+          >
+            <svg
+              class="lucide lucide-chart-column h-16 w-16 mx-auto mb-6 text-[#FFE3DC]"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 3v16a2 2 0 0 0 2 2h16"
+              />
+              <path
+                d="M18 17V9"
+              />
+              <path
+                d="M13 17V5"
+              />
+              <path
+                d="M8 17v-3"
+              />
+            </svg>
+            <h4
+              class="text-2xl font-semibold mb-4 text-[#DE0D92]"
+            >
+              Gestión Inteligente
+            </h4>
+            <p
+              class="text-[#FFE3DC]"
+            >
+              Herramientas avanzadas para el control y análisis de tus finanzas personales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="bg-black bg-opacity-70 p-8 mt-16"
+    >
+      <div
+        class="container mx-auto px-6 sm:px-10"
+      >
+        <div
+          class="flex flex-wrap justify-center mb-6 space-y-2 sm:space-y-0 sm:space-x-6"
+        >
+          <a
+            class="text-[#FFE3DC] hover:text-[#DE0D92] transition-colors block sm:inline"
+            href="#"
+          >
+            Sobre Nosotros
+          </a>
+          <a
+            class="text-[#FFE3DC] hover:text-[#DE0D92] transition-colors block sm:inline"
+            href="#"
+          >
+            Términos de Servicio
+          </a>
+          <a
+            class="text-[#FFE3DC] hover:text-[#DE0D92] transition-colors block sm:inline"
+            href="#"
+          >
+            Política de Privacidad
+          </a>
+          <a
+            class="text-[#FFE3DC] hover:text-[#DE0D92] transition-colors block sm:inline"
+            href="#"
+          >
+            Contacto
+          </a>
+        </div>
+        <p
+          class="text-sm text-[#FFE3DC] text-center"
+        >
+          © 2024 Pony Pago. Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
+  </div>
+</DocumentFragment>
+`;

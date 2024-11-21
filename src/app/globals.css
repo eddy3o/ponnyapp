@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap");
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --color-primary: #ec4899;
+  --color-secondary: #3e3f3e;
+  --color-gradient: linear-gradient(to right, #ec4899, #9b5de5);
+  --border-secondary: 1px solid #3e3f3e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Jaldi", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.03em;
+
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.text-color-gradient {
+  background: var(--color-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.background-container {
+  background: #0f0f0f;
+}
+
+.background-container-secondary {
+  background: #3e3f3e;
+}
+
+.border-t-secondary {
+  border-top: var(--border-secondary);
+}
+
+.border-b-secondary {
+  border-bottom: var(--border-secondary);
+}
+
+.border-l-secondary {
+  border-left: var(--border-secondary);
+}
+
+.border-r-secondary {
+  border-right: var(--border-secondary);
+}
+
+.button-primary {
+  background: var(--color-gradient);
+  padding-block: 0.5rem;
+  color: white;
+  font-weight: 700;
+  border-radius: 0.5rem;
+}
+
+.border-secondary {
+  border: var(--border-secondary);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

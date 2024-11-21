@@ -1,0 +1,15 @@
+[
+    {
+      "email": "andre@gmail.com",
+      "password": "123",
+      "name": "Juan Pérez",
+      "balance": 1000.50
+    },
+    {
+      "email": "usuario2@example.com",
+      "password": "securePass456",
+      "name": "María Gómez",
+      "balance": 250.75
+    }
+  ]
+  
