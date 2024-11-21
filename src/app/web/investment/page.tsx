@@ -10,10 +10,6 @@ import React, { useEffect, useState } from "react";
 const InvestmentPage = () => {
   const [inversiones, setInversiones] = useState<Inversion[]>([]);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState({
-    status: false,
-    message: "",
-  });
 
   const fetchData = async () => {
     try {
@@ -25,17 +21,7 @@ const InvestmentPage = () => {
         setInversiones([]);
       }
     } catch (error) {
-      if (error instanceof Error) {
-        setError({
-          status: true,
-          message: error.message,
-        });
-      } else {
-        setError({
-          status: true,
-          message: "An unknown error occurred",
-        });
-      }
+      console.log(error);
     } finally {
       setLoading(false);
     }
